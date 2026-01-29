@@ -1,15 +1,13 @@
 🎨 Skittles Color Sorting Device
 
 <br/>
-<br/>
 
 __📌 Overview__
 
 This project is a **low-cost, portable, and accessible** candy color sorting device designed to automatically sort Skittles into five colors: **Red, Yellow, Green, Orange, and Purple**.
 A key design goal was **accessibility**, the device can be used by **color-blind and visually impaired users**, featuring **engraved labels and Braille markings** for each output compartment.
 
-
-
+<br/>
 
 __🚀 Key Features:__
 
@@ -25,13 +23,11 @@ __🚀 Key Features:__
 
 - 🧩 Modular & serviceable (17 custom 3D-printed parts)
 
-
-  
+  <br/>
 
 __🛠️ System Architecture__
 
-
-__Mechanical Design__
+__Hardware components__
 
 - Arduino Uno – main controller
 
@@ -60,8 +56,7 @@ __Mechanical Design__
 
 - 17 custom 3D-printed parts (PLA)
 
-
-
+<br/>
 
 __🧠 How It Works__
 
