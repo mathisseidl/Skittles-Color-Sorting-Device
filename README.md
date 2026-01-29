@@ -2,30 +2,28 @@
 
 <br/>
 
-__📌 Overview__
+__Overview__
 
 This project is a **low-cost, portable, and accessible** candy color sorting device designed to automatically sort Skittles into five colors: **Red, Yellow, Green, Orange, and Purple**.
 A key design goal was **accessibility**, the device can be used by **color-blind and visually impaired users**, featuring **engraved labels and Braille markings** for each output compartment.
 
 <br/>
 
-__🚀 Key Features:__
+__Key Features:__
 
-- ✅ Sorts 5 colors (Red, Yellow, Green, Orange, Purple)
+- Sorts 5 colors (Red, Yellow, Green, Orange, Purple)
 
-- 🎯 99% accuracy across 100 trials
+- 99% accuracy across 100 trials
 
-- ⏱ Fast operation (~3 seconds per Skittle)
+- Fast operation (~3 seconds per Skittle)
 
-- ♿ Accessible design (Braille + engraved labels)
+- Accessible design (Braille + engraved labels)
 
-- 🔋 Fully portable (battery-powered)
+- Fully portable (battery-powered)
 
-- 🧩 Modular & serviceable (17 custom 3D-printed parts)
+- Modular & serviceable (17 custom 3D-printed parts)
 
   <br/>
-
-__🛠️ System Architecture__
 
 __Hardware components__
 
@@ -45,6 +43,7 @@ __Hardware components__
 
   - 9V battery + buck converter (Arduino)
 
+  <br/>
 
 __Mechanical Design__
 
@@ -58,23 +57,19 @@ __Mechanical Design__
 
 <br/>
 
-__🧠 How It Works__
+__CAD & Manufacturing__
 
-1. Candy is dropped into the funnel
+- Designed for easy assembly and maintenance
 
-2. A rotating disc moves the Skittle to the sensing position
+- All parts mounted with screws (no glue)
 
-3. The TCS3200 sensor takes multiple RGB readings
+- Washable 3D-printed components
 
-4. The rotating disc aligns the Skittle with the ramp opening
-   
-6. A servo-controlled ramp guides the candy into the correct bin
-
-7. System resets for the next cycle
+- Optimized geometry for Skittle dimensions
 
 <br/>
 
-__📊 Performance Metrics__
+__Performance Metrics__
 
 
 | Metric                   | Result                 |
@@ -89,18 +84,6 @@ __📊 Performance Metrics__
 
 <br/>
 
-__🧩 CAD & Manufacturing__
-
-- Designed for easy assembly and maintenance
-
-- All parts mounted with screws (no glue)
-
-- Washable 3D-printed components
-
-- Optimized geometry for Skittle dimensions
-
-<br/>
-
 __🧠 Lessons Learned__
 
 - Servo motors provided far better reliability than stepper motors
@@ -109,5 +92,19 @@ __🧠 Lessons Learned__
 
 - Real user testing is critical for intuitive interaction
 
+<br/>
 
+  __How It Works__
+
+1. Candy is dropped into the funnel
+
+2. A rotating disc moves the Skittle to the sensing position
+
+3. The TCS3200 sensor takes multiple RGB readings
+
+4. The rotating disc aligns the Skittle with the ramp opening
+   
+6. A servo-controlled ramp guides the candy into the correct bin
+
+7. System resets for the next cycle
 
