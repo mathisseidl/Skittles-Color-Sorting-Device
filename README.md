@@ -1,4 +1,4 @@
-**🎨 Skittles Color Sorting Device**
+**🎨 Skittles Color Sorting Device 🎨**
 
 <br/>
 
@@ -84,7 +84,7 @@ __Performance Metrics__
 
 <br/>
 
-__🧠 Lessons Learned__
+__Lessons Learned__
 
 - Servo motors provided far better reliability than stepper motors
 
